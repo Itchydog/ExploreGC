@@ -324,6 +324,7 @@ footer  {
 }
 
 nav {
+    border-bottom: none;
     display: flex;  
     justify-content: center;
     width:500px
@@ -349,21 +350,21 @@ nav ul li a{
 
 .content1{
     justify-content: center;
-    text-align: left;
+    text-align: center;
     font-size: 150%;
     font-family: PermanentMarker-Regular;  
 }
 
 .content2 {
     justify-content: center;
-    text-align: left;
+    text-align: center;
     font-size: 150%;
     font-family: PermanentMarker-Regular; 
 }
 
 .content3 {
     justify-content: center;
-    text-align: left;
+    text-align: center;;
     font-size: 150%;
     font-family: PermanentMarker-Regular; 
 }   
