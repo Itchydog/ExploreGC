@@ -3,13 +3,13 @@
     margin:0px;       
 }
 
-
 /* --------------FONTS--------------*/
 
 @font-face {
     font-family:'PermanentMarker-Regular' ;
     src: url('PermanentMarker-Regular.ttf');
 }
+
 
 
 /* --------------GRID--------------*/
@@ -283,12 +283,12 @@ footer  {
 
 /*----------------------------RESPONSIVE GRID DESIGN   XS - MOBILE DEVICE --------------------------------------------*/
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 400px){
 
-    .container{
-       
+
+    .container{      
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
             'nav'
             'sidebar'
@@ -299,7 +299,105 @@ footer  {
     } 
 
     
- 
+    .container{
+        background-image: url('beach2.jpg');
+        background-size: cover;
+    }
+
+    /*-----------------------------navbar  xs------------------------------*/
+   
+.explore {  
+    font-size: 300%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: PermanentMarker-Regular;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.explore a {
+    text-decoration: none;
+    color: rgb(2, 2, 128);
+}
+
+nav {
+    display: flex;  
+   justify-content: center;
+   border-bottom: 10px solid rgb(2, 2, 128);
+}
+nav ul {  /*   THIS IS VERY USEFUL TO CENTER ITEMS*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+ li {
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    float:left;
+    color: rgb(2, 2, 128); 
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 140%;
+    font-family: PermanentMarker-Regular;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid;
+}
+.social-icons  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:50px;
+}
+
+/*--------------------------------end of xs navbaar-----------------------*/
+
+
+.content1{
+    justify-content: center;
+    text-align: left;
+    font-size: 150%;
+    font-family: PermanentMarker-Regular;  
+}
+
+.content2 {
+    justify-content: center;
+    text-align: left;
+    font-size: 150%;
+    font-family: PermanentMarker-Regular; 
+}
+
+.content3 {
+    justify-content: center;
+    text-align: left;
+    font-size: 150%;
+    font-family: PermanentMarker-Regular; 
+}   
+.p1{
+    color: #fff;
+    background-color: rgb(20, 75, 77);
+    opacity: 70%;
+}
+.p2{
+    color: #fff;
+    background-color: rgb(20, 75, 77);
+    opacity: 70%;
+}
+.p3{
+    color: #fff;
+    background-color: rgb(20, 75, 77);
+    opacity: 70%;
+}
+
+
+
+
+    
   
 }
     
